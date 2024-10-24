@@ -1,0 +1,11 @@
+/* $primary: blueviolet; */
+
+.layout{
+     background-color: blueviolet;
+     margin: 10px;
+}
+
+#root{
+     text-align: center;
+     background-color: blueviolet;
+}

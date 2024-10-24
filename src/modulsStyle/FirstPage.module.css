@@ -1,0 +1,13 @@
+.firstBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2.3%;
+    margin-top: 1%;
+    align-items: stretch;
+}
+
+.FirstPage{
+    display: flex;
+    flex-direction: row;
+}

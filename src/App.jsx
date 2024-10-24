@@ -1,16 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import  styles  from './App.moduls.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      
-    </>
-  )
+export function App(){
+   return (
+   <div className={styles.layout}>
+    <h1>TGDUSDGD</h1>
+    <button>click</button>
+  </div>
+   )
 }
-
-export default App

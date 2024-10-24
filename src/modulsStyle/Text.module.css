@@ -1,0 +1,17 @@
+.bigText{
+    color: #F2889C;
+    font-family:'Andika';
+    font-size: 45px;
+    font-weight: 500;
+    margin: unset;
+    line-height: 1
+ }
+
+ .smallText{
+    color: #F2889C;
+    font-family:'Andika';
+    font-size: 25px;
+    font-weight: 500;
+    margin: unset;
+    line-height: 1.7;
+ }

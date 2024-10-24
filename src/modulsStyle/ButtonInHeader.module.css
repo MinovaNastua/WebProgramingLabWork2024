@@ -1,0 +1,19 @@
+.layout{
+    color: #F2889C;
+    background-color: unset;
+    border:none;
+    font-family:Andika;
+    font-size: 25px;
+    width: 148px;
+ }
+ 
+ .roundButton{
+   color: #232227;
+   background-color: #F2889C;
+   border: none;
+   font-family: Andika;
+   font-size: 25px;
+   width: 73%;
+   margin-top: 0.6%;
+   border-radius: 11px;
+ }
