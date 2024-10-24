@@ -1,7 +1,7 @@
 import  styles  from '../modulsStyle/FirstPage.module.css'
 import  textstyles  from '../modulsStyle/Text.module.css'
 import {RoundButton} from '../moduls/RoundButton.jsx'
-import inst from '../moduls/RoundButton.jsx'
+// import inst from '../moduls/RoundButton.jsx'
 
 const IsAuth = false
 
