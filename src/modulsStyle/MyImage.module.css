@@ -1,0 +1,21 @@
+.svgStyle{
+    width: 60px;
+    margin: 5%;
+    transition: transform 0.3s ease, color 0.3s ease;
+ }
+
+ .svgBlockStyle{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 1%;
+ }
+
+ .svgStyle:hover {
+    transform: scale(1.1); /* Увеличение текста при наведении */
+  }
+
+  .MainimgStyle{
+    max-width: 100%; /* Максимальная ширина 100% от родительского элемента */
+  height: auto;    /* Автоматическая высота, чтобы сохранить пропорции */
+  }

@@ -10,4 +10,6 @@
 .FirstPage{
     display: flex;
     flex-direction: row;
+    margin-right: 2%;
+    justify-content: space-between;
 }
