@@ -5,3 +5,84 @@
     margin-bottom: unset;
     background-color: #F2889C;
  }
+
+ .comonM{
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+    font-family: Anta;
+    word-spacing: 2;
+    position: relative;
+ }
+
+ .comonM p {
+    background-color: #BF7582;
+    font-size: 2vw;
+    display: inline-block; /* Чтобы текст отображался в строку */
+    animation: comonM 15s linear infinite; /* Анимация */
+}
+
+ .marquee{
+    position: relative;
+    color: #232227;
+    top: -15vw;
+    z-index: 5;
+    transform: rotate(8.56deg);
+}
+
+.marquee2 {
+    position: relative;
+    color: #232227;
+    top: -22.9vw;
+    z-index: 4;
+    transform: rotate(8.56deg);
+}
+
+.marquee2 p {
+    animation-delay: 7.5s;
+    color: #BF7582;
+}
+
+.marquee3 {
+    position: relative;
+    color: #232227;
+    top: -32vw;
+    z-index: 3;
+    transform: rotate(-8.56deg);
+}
+
+
+.marquee4 {
+    position: relative;
+    color: #232227;
+    top: -40.1vw;
+    z-index: 2;
+    transform: rotate(-8.56deg);
+}
+
+.marquee4 p {
+    animation-delay: 7.5s;
+    color: #BF7582;
+}
+
+@keyframes comonM {
+    0% {
+        color: #232227;
+        transform: translateX(100%); /* Начальная позиция (вне экрана справа) */
+    }
+    100% {
+        color: #232227;
+        transform: translateX(-100%); /* Конечная позиция (вне экрана слева) */
+    }
+}
+
+@keyframes marquee2 {
+    0% {
+        color: #232227;
+        transform: translateX(100%); /* Начальная позиция (вне экрана справа) */
+    }
+    100% {
+        color: #232227;
+        transform: translateX(-100%); /* Конечная позиция (вне экрана слева) */
+    }
+}

@@ -1,6 +1,6 @@
-import  styles  from '../modulsStyle/Header.module.css'
-import {Button} from '../moduls/ButtonInHeader.jsx'
-import {Line} from '../moduls/HeaderLine.jsx'
+import  styles  from '../../modulsStyle/Header.module.css'
+import {Button} from '../Button/ButtonInHeader.jsx'
+import {Line} from '../Decoration/HeaderLine.jsx'
 
 const IsAuth = false
 

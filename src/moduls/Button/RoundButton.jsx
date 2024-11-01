@@ -1,4 +1,4 @@
-import  styles  from '../modulsStyle/ButtonInHeader.module.css'
+import  styles  from '../../modulsStyle/ButtonInHeader.module.css'
 
 export function RoundButton({title}){
    return (

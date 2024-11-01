@@ -1,21 +1,33 @@
 .svgStyle{
-    width: 60px;
-    margin: 5%;
-    transition: transform 0.3s ease, color 0.3s ease;
+   width: 60px;
+   margin: 5%;
+   transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.svgBlockStyle{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+   margin-top: 1%;
+}
+
+.svgStyle:hover {
+   transform: scale(1.1); /* Увеличение текста при наведении */
  }
 
- .svgBlockStyle{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-top: 1%;
+ .MainimgStyle{
+  width: 100%; /* Максимальная ширина 100% от родительского элемента */
+ height: auto;    /* Автоматическая высота, чтобы сохранить пропорции */
  }
 
- .svgStyle:hover {
-    transform: scale(1.1); /* Увеличение текста при наведении */
-  }
+ .LineStyle{
+   width: 100%;
+ }
 
-  .MainimgStyle{
-    max-width: 100%; /* Максимальная ширина 100% от родительского элемента */
-  height: auto;    /* Автоматическая высота, чтобы сохранить пропорции */
-  }
+ .LineStyleBlock{
+  position: relative;
+  top: -7vw;
+  width: 100%;
+  margin: -1%;
+  z-index: 3;
+ }
