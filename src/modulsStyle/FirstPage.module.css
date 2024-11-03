@@ -13,3 +13,95 @@
     margin-right: 2%;
     justify-content: space-between;
 }
+
+/* --------------------------------------------------------------- */
+
+.SecondBlock{
+    position: relative;
+    top: -204px;
+    margin-left: -8px;
+}
+
+.SecondBlock2{
+    position: relative;
+    top: -69vw;
+    display: flex;
+    flex-direction: column;
+    height: 39vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SecondBlockTextBlock{
+    display: flex;
+    flex-direction: column;
+    height: 5vw;
+    margin: 4vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ------------------------------------------------------ */
+
+.htirtBlock{
+    position: relative;
+    top: -70vw;
+    display: flex;
+    margin-left: -8px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.htirtBlock2{
+    position: relative;
+    top: 4vw;
+    margin: 4vw;
+    display: flex;
+    flex-direction: row;
+    height: 59vw;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+/* ------------------------------------------------------ */
+
+.fourBlock{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -65vw;
+    margin-top: 6vw;
+}
+
+.fourBlock2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+}
+/* --------------- */
+.fiveBlock{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -67vw;
+    margin-top: 6vw;
+}
+
+.fiveBlock2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+}

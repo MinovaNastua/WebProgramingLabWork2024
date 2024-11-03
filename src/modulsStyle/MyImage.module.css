@@ -12,12 +12,23 @@
 }
 
 .svgStyle:hover {
-   transform: scale(1.1); /* Увеличение текста при наведении */
+   transform: scale(1.1);
+ }
+
+ /* .svgStyle2 {
+   filter: brightness(1.3) hue-rotate(180deg);
+ } */
+ 
+ .svgStyle2:hover {
+   transition: transform 0.3s ease, color 0.3s ease;
+   transform: scale(1.1);
+   filter: brightness(1.3) hue-rotate(20deg);
+   fill:aliceblue;
  }
 
  .MainimgStyle{
-  width: 100%; /* Максимальная ширина 100% от родительского элемента */
- height: auto;    /* Автоматическая высота, чтобы сохранить пропорции */
+  width: 100%; 
+ height: auto;  
  }
 
  .LineStyle{
@@ -30,4 +41,26 @@
   width: 100%;
   margin: -1%;
   z-index: 3;
+  height: 300px;
  }
+
+
+ /* ------------------------------------------ */
+
+ .svgStyle3 {
+  width: 18vw;
+  margin: 2vw;
+}
+
+.svgStyle3:hover {
+  transition: transform 0.3s ease, color 0.3s ease;
+  transform: scale(1.1);
+  filter: brightness(1.3) hue-rotate(20deg);
+  fill:aliceblue;
+}
+
+/* ---------------- */
+
+.imgFon{
+  width: 61%;
+}

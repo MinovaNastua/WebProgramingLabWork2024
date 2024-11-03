@@ -1,0 +1,42 @@
+.fotoBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto1{
+    width: 21vw;
+    height: 32vw;
+    background-color: #F2889C;
+    border-radius: 12px;
+    margin: 1vw;
+}
+
+.foto2{
+    width: 21vw;
+    height: 17vw;
+    background-color: #F2889C;
+    border-radius: 12px;
+    margin: 1vw;
+}
+
+.foto3{
+    width: 21vw;
+    height: 21vw;
+    background-color: #F2889C;
+    border-radius: 12px;
+    margin: 1vw;
+}
+
+.foto4{
+    width: 21vw;
+    height: 39vw;
+    background-color: #F2889C;
+    border-radius: 12px;
+    margin: 1vw;
+}
+
+
+.foto1:hover {
+    transition: transform 0.3s ease, color 0.3s ease;
+    transform: scale(1.1); /* Показать тень при наведении */
+}

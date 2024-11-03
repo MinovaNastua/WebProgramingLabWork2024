@@ -1,13 +1,13 @@
 
-import  styles  from '../../modulsStyle/FirstPage.module.css'
-import  textstyles  from '../../modulsStyle/Text.module.css'
-import {RoundButton} from '../Button/RoundButton.jsx'
-import myimgStyle from '../../modulsStyle/MyImage.module.css'
-import {Run} from '../ElementInPages/RunStr.jsx';
+import  styles  from '../../../modulsStyle/FirstPage.module.css'
+import  textstyles  from '../../../modulsStyle/Text.module.css'
+import {RoundButton} from '../../Button/RoundButton.jsx'
+import myimgStyle from '../../../modulsStyle/MyImage.module.css'
+import {Run} from '../../Decoration/RunStr.jsx';
 
 const IsAuth = false
 
-export function FirstPage(){
+export function FirstBlock(){
    return (
         <div>
         <div className={styles.FirstPage}>
