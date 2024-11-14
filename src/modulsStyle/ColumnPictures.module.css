@@ -9,6 +9,7 @@
     background-color: #F2889C;
     border-radius: 12px;
     margin: 1vw;
+    object-fit: cover; 
 }
 
 .foto2{
@@ -17,6 +18,7 @@
     background-color: #F2889C;
     border-radius: 12px;
     margin: 1vw;
+    object-fit: cover; 
 }
 
 .foto3{
@@ -25,6 +27,7 @@
     background-color: #F2889C;
     border-radius: 12px;
     margin: 1vw;
+    object-fit: cover; 
 }
 
 .foto4{
@@ -33,10 +36,26 @@
     background-color: #F2889C;
     border-radius: 12px;
     margin: 1vw;
+    object-fit: cover; 
 }
 
 
 .foto1:hover {
     transition: transform 0.3s ease, color 0.3s ease;
     transform: scale(1.1); /* Показать тень при наведении */
+}
+
+
+.imageitem {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.4s, opacity 0.3s; /* Плавный переход для уменьшения и бледнения */
+}
+
+
+
+/* Класс для уменьшения и бледнения */
+.fade {
+    transform: scale(0.8); /* Уменьшение размера */
+    opacity: 0.5; /* Бледность */
 }

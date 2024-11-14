@@ -16,6 +16,15 @@
     line-height: 1.7;
  }
 
+ .smallTextBlack{
+   color: #232227;
+   font-family:'Andika';
+   font-size: 25px;
+   font-weight: 500;
+   margin: unset;
+   line-height: 1.7;
+}
+
  .bigFatText{
    color: #F2889C;
    font-family:'Andika';
@@ -37,4 +46,31 @@
    text-align: justify;
 }
 
+.underlineText{
+   font-family: 'Andika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   margin: 0px;
+   margin-bottom: 2%;
+   line-height: 40px;
+   text-align: center;
+   text-decoration-line: underline;
+   color: #232227;
+}
 
+.underlineText:hover{
+   text-decoration-line: none;
+   transition: transform 0.3s ease, color 0.3s ease;
+   transform: scale(1.1);
+}
+
+.verySmallText{
+   color: #232227;
+   font-family:'Andika';
+   font-size: 20px;
+   font-weight: 500;
+   margin: unset;
+   line-height: 1.7;
+   margin-top: 1%;
+}

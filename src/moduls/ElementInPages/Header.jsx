@@ -1,6 +1,7 @@
 import  styles  from '../../modulsStyle/Header.module.css'
 import {Button} from '../Button/ButtonInHeader.jsx'
 import {Line} from '../Decoration/HeaderLine.jsx'
+import  styleSS  from '../../modulsStyle/HeaderLine.module.css'
 
 const IsAuth = false
 
@@ -18,7 +19,7 @@ export function Header(){
    
    <Button title="Войти"></Button>
    </div>
-   <Line></Line>
+   <Line CL = "_layout_zn774_1"></Line>
    </div>
    )
 }

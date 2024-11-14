@@ -37,11 +37,12 @@
 
  .LineStyleBlock{
   position: relative;
-  top: -7vw;
-  width: 100%;
-  margin: -1%;
-  z-index: 3;
-  height: 300px;
+    top: -7vw;
+    width: 100%;
+    margin: -1%;
+    z-index: 3;
+    height: 300px;
+    margin-bottom: -15vw;
  }
 
 

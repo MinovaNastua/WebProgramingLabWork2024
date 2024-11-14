@@ -1,7 +1,7 @@
 import  styles  from '../../modulsStyle/HeaderLine.module.css'
 
-export function Line(){
+export function Line({CL}){
    return (
-   <div className={styles.layout}></div>
+   <div className={CL}></div>
    )
 }

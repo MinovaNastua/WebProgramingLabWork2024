@@ -11,3 +11,30 @@
     margin-bottom: unset;
 }
 
+.footer{
+    height: 17vw;
+    width: 100%;
+    background-color: #F2889C;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+    margin-top: 6vw;
+}
+
+.footerBlock1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 57%;
+    margin-top: 2%;
+    margin-left: 38%;
+}
+
+.footerBlock2{
+    display: flex;
+    align-items: center;
+}
