@@ -9,9 +9,12 @@ import {FiveBlock} from '../ElementInPages/mainPage/fiveBlock.jsx'
 import {SevenBlock} from '../ElementInPages/mainPage/seven.jsx'
 import {Footer} from '../ElementInPages/Footer.jsx'
 import '../../modulsStyle/index.css'
+import React from 'react';
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+ function Mainn(){
+  return (
+    <div>
+ <StrictMode>
     <Header />
     <FirstBlock/>
     <SecondBlock/>
@@ -21,5 +24,8 @@ createRoot(document.getElementById('root')).render(
     <SevenBlock/>
     <Footer/>
   </StrictMode>
+    </div>
 )
+}
 
+export default Mainn;

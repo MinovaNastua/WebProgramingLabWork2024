@@ -5,10 +5,15 @@ import {FiveBlock} from '../ElementInPages/mainPage/fiveBlock.jsx'
 import {Footer} from '../ElementInPages/Footer.jsx'
 import '../../modulsStyle/index.css'
 
-createRoot(document.getElementById('root')).render(
+ function Scetches(){
+  return (
   <StrictMode>
     <Header />
     <FiveBlock/>
     <Footer/>
   </StrictMode>
 )
+}
+
+
+export default Scetches;

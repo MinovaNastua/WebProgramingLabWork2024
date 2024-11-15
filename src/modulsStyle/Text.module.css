@@ -74,3 +74,14 @@
    line-height: 1.7;
    margin-top: 1%;
 }
+
+
+   .problem404 {
+      color: #F2889C;
+      font-family: 'Andika';
+      font-size: 6vw;
+      font-weight: 500;
+      margin: unset;
+      line-height: 1;
+      text-align: center;
+  }

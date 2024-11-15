@@ -117,3 +117,13 @@
     top: 4vw;
     margin-bottom: 6vw;
 }
+
+
+/* ____________________________ */
+
+.NotFound{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 98vh;
+}
