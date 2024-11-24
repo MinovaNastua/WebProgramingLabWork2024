@@ -100,17 +100,21 @@
 .fiveBlock2{
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
     margin-top: 6vw;
     margin-bottom: 4vw;
 }
 
+.fiveBlock3{
+    display: flex;
+    flex-direction: row;
+}
 /* -------- */
 .sevenBlock2{
     position: relative;
-    width: 1317px;
+    width: 100%;
     height: 769px;
     opacity: 0.83;
     border-radius: 12px;

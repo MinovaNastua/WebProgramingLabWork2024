@@ -10,6 +10,7 @@ import {SevenBlock} from '../ElementInPages/mainPage/seven.jsx'
 import {Footer} from '../ElementInPages/Footer.jsx'
 import '../../modulsStyle/index.css'
 import React from 'react';
+import data from '../../info/portfolioFoto.json';
 
  function Mainn(){
   return (
@@ -20,7 +21,7 @@ import React from 'react';
     <SecondBlock/>
     <ThirtBlock/>
     <FourBlock/>
-    <FiveBlock/>
+    <FiveBlock data={data}/>
     <SevenBlock/>
     <Footer/>
   </StrictMode>

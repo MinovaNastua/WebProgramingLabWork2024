@@ -10,6 +10,8 @@
     border-radius: 12px;
     margin: 1vw;
     object-fit: cover; 
+    background-size: cover;
+
 }
 
 .foto2{
@@ -19,6 +21,7 @@
     border-radius: 12px;
     margin: 1vw;
     object-fit: cover; 
+    background-size: cover;
 }
 
 .foto3{
@@ -28,6 +31,7 @@
     border-radius: 12px;
     margin: 1vw;
     object-fit: cover; 
+    background-size: cover;
 }
 
 .foto4{
@@ -37,10 +41,30 @@
     border-radius: 12px;
     margin: 1vw;
     object-fit: cover; 
+    background-size: cover;
 }
 
 
 .foto1:hover {
+    transition: transform 0.3s ease, color 0.3s ease;
+    filter: brightness(1.1);
+    transform: scale(1.1); /* Показать тень при наведении */
+}
+
+.foto2:hover {
+    transition: transform 0.3s ease, color 0.3s ease;
+    filter: brightness(1.1);
+    transform: scale(1.1); /* Показать тень при наведении */
+}
+
+.foto3:hover {
+    transition: transform 0.3s ease, color 0.3s ease;
+    filter: brightness(1.1);
+    transform: scale(1.1); /* Показать тень при наведении */
+}
+
+.foto4:hover {
+    filter: brightness(1.1);
     transition: transform 0.3s ease, color 0.3s ease;
     transform: scale(1.1); /* Показать тень при наведении */
 }

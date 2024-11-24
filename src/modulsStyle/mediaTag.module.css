@@ -1,0 +1,37 @@
+@media (max-width: 1050px) {
+    .comonM p{
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 849px) {
+    .comonM p{
+        font-size: 2.8vw;
+    }
+
+    .LineStyle{
+        width: 100%;
+        height: 84%;
+    }
+
+    .marquee{
+    top: -17vw;
+    }
+
+    .marquee2{
+        top: -28.9vw;
+        }
+
+     .marquee3{
+    top: -41vw;
+    }
+    
+    .marquee4{
+        top: -53.1vw;
+    }
+
+    .LineStyleBlock{
+        margin-bottom: -33vw;
+    }
+    
+}
