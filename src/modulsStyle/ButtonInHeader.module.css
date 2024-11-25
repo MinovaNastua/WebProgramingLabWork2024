@@ -1,12 +1,22 @@
 .layout{
-    color: #F2889C;
-    background-color: unset;
-    border:none;
-    font-family:Andika;
-    font-size: 25px;
-    width: 148px;
-    transition: transform 0.3s ease, color 0.3s ease;
+    color: #F2889C !important;
+    background-color: unset  !important;
+    border:none  !important;
+    font-family:Andika  !important;
+    font-size: 25px  !important;
+    width: 148px  !important;
+    transition: transform 0.3s ease, color 0.3s ease  !important;
  }
+
+ .layout2{
+  color: #F2889C !important;
+  background-color: unset  !important;
+  border:none  !important;
+  font-family:Andika  !important;
+  font-size: 25px  !important;
+  width: 185px  !important;
+  transition: transform 0.3s ease, color 0.3s ease  !important;
+}
  
  .roundButton{
    color: #232227;

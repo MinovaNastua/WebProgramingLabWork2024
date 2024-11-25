@@ -33,7 +33,7 @@
  .marquee{
     position: relative;
     color: #232227;
-    top: -15vw;
+    top: -13vw;
     z-index: 5;
     transform: rotate(8.56deg);
 }
@@ -41,7 +41,7 @@
 .marquee2 {
     position: relative;
     color: #232227;
-    top: -22.9vw;
+    top: -18.5vw;
     z-index: 4;
     transform: rotate(8.56deg);
 }
@@ -54,7 +54,7 @@
 .marquee3 {
     position: relative;
     color: #232227;
-    top: -32vw;
+    top: -25.5vw;
     z-index: 3;
     transform: rotate(-8.56deg);
 }
@@ -63,7 +63,7 @@
 .marquee4 {
     position: relative;
     color: #232227;
-    top: -40.1vw;
+    top: -31.1vw;
     z-index: 2;
     transform: rotate(-8.56deg);
 }

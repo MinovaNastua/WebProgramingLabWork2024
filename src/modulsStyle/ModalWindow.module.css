@@ -1,0 +1,118 @@
+
+.body {
+    background-color: #232227;
+    
+        color: #F2889C;
+        font-family:'Andika';
+        
+}
+
+.tabBlock{
+    height: 100%;
+    margin: 3vw;
+    color: #F2889C;
+    --bs-nav-link-hover-color: #F2889C; 
+}
+
+ .nav {
+    --bs-nav-link-hover-color: #F2889C !important; /* Цвет текста вкладок */
+    --bs-nav-link-color: #b86776 !important;
+    font-family:'Andika';
+    --bs-nav-tabs-border-color:  #b86776 !important;
+    margin-bottom: 1rem;
+    --bs-nav-tabs-link-active-bg: #F2889C !important;
+    --bs-nav-tabs-link-active-border-color: #F2889C !important;
+    --bs-nav-tabs-link-hover-border-color:  #F2889C !important;
+}
+
+.accordeonBlock{
+    margin: 1vw;
+    --bs-accordion-bg: #F2889C !important;
+    
+}
+
+.accordeonEl{
+    --bs-accordion-active-bg: #b86776 !important;
+    --bs-accordion-active-color:  #232227 !important;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-bg: #232227 !important;
+     color: #F2889C !important;
+     --bs-accordion-btn-color: #232227 !important;
+     --bs-accordion-btn-active-icon-fill:none !important;
+     --bs-accordion-inner-border-radius: 1px !important;
+     margin: 1vw;
+}
+
+.accordion-button {
+   border-radius: 10px;
+}
+
+.textfield {
+    width: 40vw;
+    margin: 1vw;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: 'andika';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #F2889C;
+    background-clip: padding-box;
+    border: 1px solid #F2889C;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.buttonfield{
+    width: 20vw;
+    margin: 1vw;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: 'andika';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #F2889C;
+    background-clip: padding-box;
+    border: 1px solid #F2889C;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+  .textfield::placeholder {
+    color: #212529;
+    opacity: 0.4;
+  }
+
+  .textfield:focus {
+    color: #212529;
+    background-color: #F2889C;
+    border-color: #f8acba;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 171, 171, 0.25);
+  }
+
+  .textfield:disabled,
+  .textfield[readonly] {
+    background-color: #F2889C;
+    opacity: 1;
+  }
+
+  .progress {
+    background-color: pink !important; /* Цвет фона прогресс-бара */
+    --bs-progress-bar-bg: #ff69b4 !important;
+    --bs-pink: #d63384!important;
+  }
+  
+  .custom-progress .progress-bar {
+    background-color: #ff69b4 !important; /* Цвет заполненной части (розовый) */
+    --bs-progress-bar-bg: #ff69b4 !important;
+    --bs-pink: #d63384 !important;
+  }
+
+  .table-dark {
+    --bs-table-bg: #ff69b4 !important;
+    --bs-pink: #d63384 !important;
+  }

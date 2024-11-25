@@ -11,11 +11,13 @@ import {Footer} from '../ElementInPages/Footer.jsx'
 import '../../modulsStyle/index.css'
 import React from 'react';
 import data from '../../info/portfolioFoto.json';
+import ModalWindow from '../Decoration/modalWindow.jsx';
 
  function Mainn(){
   return (
     <div>
  <StrictMode>
+      <ModalWindow/>
     <Header />
     <FirstBlock/>
     <SecondBlock/>

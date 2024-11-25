@@ -6,6 +6,11 @@ import Scetches from '/src/moduls/Pageses/sketchesPage.jsx';
 import React, { useState, useEffect } from 'react';
 import Portfolio from '/src/moduls/Pageses/portfolioPage.jsx';
 
+import  stylesButon  from '../../modulsStyle/ButtonInHeader.module.css'
+
+import Button1 from 'react-bootstrap/Button';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+
 const IsAuth = false
 
 export function Header(){
@@ -28,6 +33,10 @@ export function Header(){
           setIsMenuOpen(!isMenuOpen);
       };
 
+      const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
    return (
     <div className={styles.mainBlock}>
@@ -41,8 +50,18 @@ export function Header(){
 
 {isMobile ? (
                 <>
-                    <Button to="/" title="|||"></Button>
-                        
+                    <Button1 className={stylesButon.layout} variant="primary" onClick={handleShow}>Meню</Button1>
+                   
+                    <Offcanvas className={stylesButon.layout2} show={show} onHide={handleClose} >
+                    <Offcanvas.Header>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body>
+                        <Button to="/" title="О студии"></Button>
+                        <Button to="/S" title="Услуги"></Button>
+                        <Button to="/Portfolio" title="Галерея"></Button>
+                        <Button to="/Scetches" title="Эскизы"></Button>
+                    </Offcanvas.Body>
+                    </Offcanvas>
                     {/* {isMenuOpen && (
                         <div className="dropdown-menu">
                             <ul>
@@ -65,7 +84,7 @@ export function Header(){
    
    <Button to="/S" title="Войти"></Button>
    </div>
-   <Line CL = "_layout_zn774_1"></Line>
+   <Line CL = "_layout_1674u_1"></Line>
    </div>
    )
 }

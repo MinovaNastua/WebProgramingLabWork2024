@@ -16,7 +16,7 @@ export function Footer(){
             </div>
       </div>
          <h3 className={textstyles.underlineText} >Политика конфиденциальности</h3> 
-         <Line CL = "_layout2_zn774_17"></Line>
+         <Line CL = "_layout2_1674u_17"></Line>
          <h4 className={textstyles.verySmallText} >Использование материалов только с разрешения правообладателя</h4> 
    </div>
    )
