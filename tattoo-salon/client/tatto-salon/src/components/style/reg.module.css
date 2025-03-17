@@ -1,0 +1,146 @@
+.textfieldinput {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: Andika;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #25171f;
+    background-color: #F2889C !important;
+    background-clip: padding-box;
+    border: 2px solid #25171f;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .textfieldinput::placeholder {
+    color: #212529;
+    opacity: 0.4;
+  }
+
+  .textfieldinput:focus {
+    color: #25171f;
+    background-color: #F2889C;
+    border-color: #25171f;
+    outline: 0;
+    box-shadow: #F2889C;
+  }
+
+  .textfieldinput:disabled,
+  .textfieldinput[readonly] {
+    background-color: #232227;
+    opacity: 1;
+  }
+
+  .roundButton{
+    color: #232227;
+    background-color: #F2889C;
+    border: none;
+    font-family: Andika;
+    font-size: 25px;
+    width: 36vw;
+    margin-top: 0.6%;
+    border-radius: 11px;
+    transition: transform 0.4s ease, color 0.3s ease;
+    margin-top: 1vw;
+  }
+
+  .roundButton:hover {
+    background-color: #232227; /* Более тёмный зелёный цвет при наведении */
+    color: #F2889C;
+  }
+
+  .block1{
+    margin-top: 2vw;
+    display: flex
+;
+    flex-direction: column;
+    height: 404px;
+    justify-content: center;
+    align-items: center;
+    color: #F2889C;
+  }
+
+  .block2 {
+    margin-top: 3vw;
+    display: flex
+;
+    /* height: 404px; */
+    color: #F2889C;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+  .block{
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Andika;
+  }
+
+  .modal {
+    font-family: Andika;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Позволяет прокручивать, если содержимое превышает высоту экрана */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+}
+
+.modalContent {
+    background-color: #F2889C;
+    margin: 15% auto; /* 15% сверху и центрирование */
+    padding: 20px;
+    color:#212529;
+    border: 1px solid #232227;
+    width: 80%; /* Ширина модального окна */
+    max-width: 500px; /* Максимальная ширина */
+    border-radius: 12px; /* Закругленные углы */
+    text-align: center; /* Центрирование текста */
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal button {
+  background-color: black; /* Зелёный цвет фона */
+  color: #F2889C; /* Белый цвет текста */
+  border: none; /* Без границы */
+  padding: 10px 20px; /* Отступы */
+  text-align: center; /* Центрирование текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  display: inline-block; /* Для размещения в строку */
+  font-size: 16px; /* Размер шрифта */
+  margin-top: 10px; /* Отступ сверху */
+  cursor: pointer; /* Указатель при наведении */
+  border-radius: 5px; /* Закругленные углы */
+  transition: background-color 0.3s; /* Плавный переход фона */
+}
+
+.modal button:hover {
+  background-color: #F2889C; /* Более тёмный зелёный цвет при наведении */
+  color: #232227;
+}
+
+.artistImage{
+  width: 20vw;
+}

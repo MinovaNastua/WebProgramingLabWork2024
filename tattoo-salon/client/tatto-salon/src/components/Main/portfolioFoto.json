@@ -1,0 +1,65 @@
+{"images":[
+    {
+        "id": 1,
+        "url": "./portfolio/1.png",
+        "alt": "Изображение 1"
+    },
+    {
+        "id": 2,
+        "url": "./portfolio/2.png",
+        "alt": "Изображение 2"
+    },
+    {
+        "id": 3,
+        "url": "./portfolio/3.png",
+        "alt": "Изображение 3"
+    },
+    {
+        "id": 4,
+        "url": "./portfolio/4.png",
+        "alt": "Изображение 4"
+    },
+    {
+        "id": 5,
+        "url": "./portfolio/5.png",
+        "alt": "Изображение 5"
+    },
+    {
+        "id": 6,
+        "url": "./portfolio/6.png",
+        "alt": "Изображение 6"
+    },
+    {
+        "id": 7,
+        "url": "./portfolio/7.png",
+        "alt": "Изображение 7"
+    },
+    {
+        "id": 8,
+        "url": "./portfolio/8.png",
+        "alt": "Изображение 8"
+    },
+    {
+        "id": 9,
+        "url": "./portfolio/9.png",
+        "alt": "Изображение 9"
+    },
+    {
+        "id": 10,
+        "url": "./portfolio/10.png",
+        "alt": "Изображение 10"
+    },
+    {
+        "id": 11,
+        "url": "./portfolio/11.png",
+        "alt": "Изображение 11"
+    },
+    {
+        "id": 12,
+        "url": "../portfolio/12.png",
+        "alt": "Изображение 12"
+    }
+]
+
+}
+
